@@ -1,0 +1,17 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "Pacote de funcionarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "Caio Medeiros",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
