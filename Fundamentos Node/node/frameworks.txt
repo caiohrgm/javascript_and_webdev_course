@@ -1,0 +1,4 @@
+// Framework: fornece a sestrutura básica para fazer sua aplicação. 
+// Exemplos: Express - fazer webservices do lado do servidor/ Angular, GraphQL, etc.
+
+

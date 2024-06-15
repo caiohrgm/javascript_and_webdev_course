@@ -1,0 +1,4 @@
+- Padrão que utilzia baixo acoplamento.
+- Exemplo: Criar 3 funçções independentes que executam algo e chamam um próximo (next()) passo genérico.
+- As funç~eso trabalham no modelo Request/Reponse
+- Padrão middleware também conehcido como "Chain of responsibility"

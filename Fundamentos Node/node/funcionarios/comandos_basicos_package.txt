@@ -1,8 +1,0 @@
-- $npm init: inicia a criação de um package.json
-- $npm init -y: cria um package.json com as respsotas padrões
-
-- arquivo package.json: é semelhante ao POM do JAVA. Contém todas as informaç~eso do projeto e tem os módulos instalados aslvos nele.
-
-para salvar modulo no package.json:
- - $npm i --save 'nome_do_modulo'
- - $npm i --save-dev axios@axios0.17.1 -E : salvando uma dependencia apenas em dependencias de desenvolvimento no package.json
