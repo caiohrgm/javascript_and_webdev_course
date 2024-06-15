@@ -60,3 +60,11 @@ function foo(a, b) {
 
 const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado' // Condicional. Se for 1, então , 2, se não 3.
 
+// Operador rest:
+function total (...numeros) {
+    let total = 0
+    numeros.forEach(n => total += n) // Itera por cada elemento da lista e aplica uma funcção (no caso, soma cada elemento)
+    return total
+}
+
+console.log(total(1,2,1,1))
