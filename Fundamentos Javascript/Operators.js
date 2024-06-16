@@ -61,10 +61,23 @@ function foo(a, b) {
 const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado' // Condicional. Se for 1, então , 2, se não 3.
 
 // Operador rest:
-function total (...numeros) {
+function total (...numeros) { // ... = operador rest (representa uma lista) rest (juntar) ou spread (espalhar)
     let total = 0
     numeros.forEach(n => total += n) // Itera por cada elemento da lista e aplica uma funcção (no caso, soma cada elemento)
     return total
 }
 
 console.log(total(1,2,1,1))
+
+// Exemplo do operador ... como spread:
+const funcionario = { name:'Maria', salary: 12348.99}
+const clone = {ativo: true, ...funcionario}  // O operador aqui vai copiar todos os atributos de funcionario e "espalhar" dentro da nova variavel cloen.
+
+console.log(clone) 
+//Output esperado: { ativo: true, name: 'Maria', salary: 12348.99 }
+
+// Exemoplode spread 2, agora coma rray:
+const grupoA = [1,2,3,4]
+const grupoFinal = [-2, -1, 0, ...grupoA, 5, 6]
+
+console.log(grupoFinal)
