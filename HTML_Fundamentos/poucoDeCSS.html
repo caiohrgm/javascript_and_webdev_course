@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Um pouco de CSS</title>
+        <style>
+            h1 {
+                background-color: red;
+                font-size: 20px;
+                /* position: absolute; */
+                /* left:10px; */
+            }
+            /* .fundoVermelho { para criar um classe no CSS se usa .noemdaclasse */
+            .fundoVermelho {
+                background-color: #F00;
+            }
+            /* Posso ter mais de uma classe CSS associada a uma tag  */
+            .negrito {
+                font-weight: bold;
+            }
+            /* Pagar pegar um atributo id utiliza-se o #nomeId */
+            #textoPrincipal {  
+                font-size: 40px;
+                font-weight: bold;
+                color: #fff;
+                background-color: #444;
+
+            }
+            /* Paga se acessar atributos customizados, utiliza-se [nomeDoAtributo] */
+            [wm-atrib] {
+                font-style: italic;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>CSS</h1>
+        <span id="textoPrincipal">Texto1</span><br>
+        <span class="fundoVermelho negrito">Texto 2</span><br>
+        <span class="fundoVermelho" wm-atrib>Texto 3</span>  
+    </body>
+</html>
